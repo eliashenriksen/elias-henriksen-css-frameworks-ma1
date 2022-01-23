@@ -1,0 +1,31 @@
+header {
+  background-color: $brandedWhiteCol !important;
+  box-shadow: $brandedBoxShadow;
+}
+
+nav {
+  > * {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  a:hover {
+    color: darken($brandedMainCol, 20%) !important;
+  }
+
+  @media only screen and (max-width: 960px) {
+    > * {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.navbar-nav__link--active {
+  color: $brandedMainCol !important;
+  font-weight: 500;
+}

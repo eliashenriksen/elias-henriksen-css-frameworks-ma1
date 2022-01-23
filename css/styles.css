@@ -1,0 +1,132 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e5e5e5;
+}
+
+.body-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+header {
+  background-color: #f4f3ee !important;
+  -webkit-box-shadow: 0px 6px 12px #00000012;
+          box-shadow: 0px 6px 12px #00000012;
+}
+
+nav > * {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+nav a:hover {
+  color: #701941 !important;
+}
+
+@media only screen and (max-width: 960px) {
+  nav > * {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.navbar-nav__link--active {
+  color: #c32c72 !important;
+  font-weight: 500;
+}
+
+.maincontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.maincontent h1 {
+  margin-top: 54px;
+  margin-bottom: 60px;
+}
+
+.content-block__col {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.content-block__item {
+  background-color: #f4f3ee !important;
+  -webkit-box-shadow: 0px 6px 12px #00000012;
+          box-shadow: 0px 6px 12px #00000012;
+  border-radius: 15px;
+}
+
+.content-block__item--filled {
+  background-color: #c32c72 !important;
+}
+
+.content-block__item--bordered {
+  border: solid #c32c72 3px;
+}
+
+footer {
+  margin-top: 210px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: #f4f3ee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 960px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
